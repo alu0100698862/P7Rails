@@ -404,3 +404,244 @@ Started PUT "/console/repl_sessions/0e5e8df55cd3d6c9f2c2f084f69b972c" for 127.0.
 
 
 Started PUT "/console/repl_sessions/0e5e8df55cd3d6c9f2c2f084f69b972c" for 127.0.0.1 at 2015-03-24 22:56:33 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-28 15:44:57 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 80ms (Views: 73.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails-be2e3e66a18126c4042f84cd4aae4cb3.png" for 127.0.0.1 at 2015-03-28 15:44:58 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-28 15:53:55 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 1959ms (Views: 1928.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-363563aff0f9a449377abd62acfab29f.css?body=1" for 127.0.0.1 at 2015-03-28 15:53:57 +0000
+
+
+Started GET "/assets/application-0988c4a8f906d252374f4cd185036145.css?body=1" for 127.0.0.1 at 2015-03-28 15:53:57 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-28 15:58:17 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 1247ms (Views: 1239.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-8866515202b91da982256cae3ff56178.css?body=1" for 127.0.0.1 at 2015-03-28 15:58:18 +0000
+
+
+Started GET "/assets/application-5a75db303f006adb0e12b2ad92289614.css?body=1" for 127.0.0.1 at 2015-03-28 15:58:18 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-28 15:59:16 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 48ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-28 15:59:17 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 61ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-28 15:59:18 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 68ms (Views: 67.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-28 16:48:00 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1224ms (Views: 1216.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-9788cf0227e550f90c0986f510d385d7.css?body=1" for 127.0.0.1 at 2015-03-28 16:48:02 +0000
+
+
+Started GET "/assets/application-19f4c1b7ad00e84cd65f2cc18ea13fdf.css?body=1" for 127.0.0.1 at 2015-03-28 16:48:02 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-28 16:48:25 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1280ms (Views: 1272.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-5157a9dd1c99a9e6ca4b22f88a882bad.css?body=1" for 127.0.0.1 at 2015-03-28 16:48:26 +0000
+
+
+Started GET "/assets/application-c017bf8c65acee881d7a0dcb9dda10df.css?body=1" for 127.0.0.1 at 2015-03-28 16:48:26 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-28 17:01:13 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 1274ms
+
+ActionView::Template::Error (Missing partial layouts/_shim with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/carlota/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates"
+  * "/home/carlota/Escritorio/sample_app/app/views"
+):
+     6:                                            'data-turbolinks-track' => true %>
+     7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+     8:     <%= csrf_meta_tags %>
+     9:     <%= render 'layouts/shim' %>
+    10: 
+    11:     <!--[if lt IE 9]>
+    12:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___3594672647492514401_70123365826140'
+
+
+  Rendered /home/carlota/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (6.4ms)
+  Rendered /home/carlota/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/carlota/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/carlota/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.3ms)
+  Rendered /home/carlota/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (36.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-28 17:02:17 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 57ms
+
+ActionView::Template::Error (Missing partial layouts/_shim with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/carlota/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates"
+  * "/home/carlota/Escritorio/sample_app/app/views"
+):
+     6:                                            'data-turbolinks-track' => true %>
+     7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+     8:     <%= csrf_meta_tags %>
+     9:     <%= render 'layouts/shim' %>
+    10: 
+    11:     <!--[if lt IE 9]>
+    12:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___3594672647492514401_70123366027500'
+
+
+  Rendered /home/carlota/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (6.4ms)
+  Rendered /home/carlota/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/carlota/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/carlota/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /home/carlota/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (22.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-28 17:04:06 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 111ms (Views: 103.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-e134a9a73c2a88f9b05504310f0db3c7.css?body=1" for 127.0.0.1 at 2015-03-28 17:04:06 +0000
+
+
+Started GET "/assets/application-fc89da7a5b51d9902bc916a813e72fc7.css?body=1" for 127.0.0.1 at 2015-03-28 17:04:06 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-28 17:34:19 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 1254ms (Views: 1246.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-293785e1da3cfb83c995cc9da4e59543.css?body=1" for 127.0.0.1 at 2015-03-28 17:34:21 +0000
+
+
+Started GET "/assets/application-2dfb7e95bcc927a8755deee8202c35fb.css?body=1" for 127.0.0.1 at 2015-03-28 17:34:21 +0000
+
+
+Started GET "/about" for 127.0.0.1 at 2015-03-28 17:34:27 +0000
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 51ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2015-03-28 17:34:39 +0000
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 55ms (Views: 54.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-28 17:41:46 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 328ms (Views: 320.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-28 17:41:47 +0000
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 17:41:47 +0000
+
+
+Started GET "/assets/application-c030fd008d439d284143eb512ecd0569.js?body=1" for 127.0.0.1 at 2015-03-28 17:41:47 +0000
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-03-28 17:41:50 +0000
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 71ms (Views: 70.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-03-28 17:42:16 +0000
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 72ms (Views: 71.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-03-28 17:42:17 +0000
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 17:42:17 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 17:42:17 +0000
+
+
+Started GET "/assets/custom-293785e1da3cfb83c995cc9da4e59543.css?body=1" for 127.0.0.1 at 2015-03-28 17:42:17 +0000
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-28 17:42:17 +0000
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-28 17:42:17 +0000
+
+
+Started GET "/assets/application-2dfb7e95bcc927a8755deee8202c35fb.css?body=1" for 127.0.0.1 at 2015-03-28 17:42:17 +0000
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 17:42:17 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 17:42:17 +0000
+
+
+Started GET "/assets/application-c030fd008d439d284143eb512ecd0569.js?body=1" for 127.0.0.1 at 2015-03-28 17:42:17 +0000
